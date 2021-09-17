@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Child Selector</title>
+
+    <style>
+      div > p {
+        background-color: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Child Selector</h2>
+    <p>
+      The child selector (>) selects all elements that are the children of a
+      specified element.
+    </p>
+
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid qui,
+        sit maxime deleniti voluptatum facilis.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus
+        id labore magni rem itaque!
+      </p>
+      <section>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
+          voluptatibus at autem sit inventore?
+        </p>
+      </section>
+      <!-- not Child but Descendant -->
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sunt
+        dolores impedit, asperiores dicta eveniet?
+      </p>
+    </div>
+
+    <p>Paragraph 5. Not in a div.</p>
+    <p>Paragraph 6. Not in a div.</p>
+  </body>
+</html>

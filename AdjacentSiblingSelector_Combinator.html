@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adjacent Sibling Selector</title>
+
+    <style>
+      div + p {
+        background-color: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Adjacent Sibling Selector</h2>
+
+    <p>
+      The + selector is used to select an element that is directly after another
+      specific element.
+    </p>
+
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A deleniti
+        reiciendis beatae at obcaecati id sunt, quidem illum voluptate deserunt.
+        Aperiam sunt pariatur error recusandae at dolores quae? In, maiores!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+        recusandae harum sapiente in rerum voluptate alias iste explicabo
+        tempore accusantium!
+      </p>
+    </div>
+
+    <p>Paragraph 3. After a div.</p>
+    <p>Paragraph 4. After a div.</p>
+
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor
+        amet aliquam ullam accusantium autem!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi
+        aliquam dicta distinctio a alias.
+      </p>
+    </div>
+
+    <p>Paragraph 7. After a div.</p>
+    <p>Paragraph 8. After a div.</p>
+  </body>
+</html>
